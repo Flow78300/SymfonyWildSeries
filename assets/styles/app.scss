@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(175, 176, 185);
+}
+
+// assets/styles/global.scss
+
+// customize some Bootstrap variables
+$primary: darken(#0d80f3, 20%);
+$secondary: darken(#ee3a0d, 20%);
+
+
+
+
+// the ~ allows you to reference things in node_modules
+@import "~bootstrap/scss/bootstrap";
